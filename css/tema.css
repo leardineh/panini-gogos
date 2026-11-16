@@ -51,6 +51,11 @@
   --shadow-card: 0 1px 2px rgb(0 0 0 / .06), 0 8px 24px -12px rgb(0 0 0 / .18);
 }
 
+/* ===== Banner Gogo's (página inicial e área Gogo's) =====
+   Proporção da arte: 1920 × 720. Se trocar o banner por outro
+   tamanho, ajuste os dois números abaixo. */
+.banner-gogos { aspect-ratio: 1920 / 720; }
+
 /* ===== Botão "Conhecer a coleção" em cima do banner =====
    Fica no canto inferior esquerdo para não cobrir o selo da Panini da arte.
    Para mudar a posição, troque o valor de "left" (distância da esquerda). */

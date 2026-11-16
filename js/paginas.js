@@ -22,7 +22,7 @@ function paginaInicial() {
 
   // Banner grande
   html += '<section class="relative bg-ink" aria-label="Coleção Gogo’s">' +
-    '<a class="block" aria-label="Conhecer a coleção Gogo’s" href="#/gogos"><img src="imagens/banner-gogos.jpg" alt="O poder dos deuses em suas mãos — Gogo’s. Panini" width="1920" height="600" class="mx-auto block aspect-[1920/600] w-full max-w-[1920px] object-cover"></a>' +
+    '<a class="block" aria-label="Conhecer a coleção Gogo’s" href="#/gogos"><img src="imagens/banner-gogos.jpg" alt="O poder dos deuses em suas mãos — Gogo’s. Panini" width="1920" height="600" class="mx-auto block banner-gogos w-full max-w-[1920px] object-cover"></a>' +
     '<a class="botao-banner absolute bottom-5 hidden rounded-full bg-secondary px-6 py-2 font-display text-sm font-bold uppercase text-secondary-foreground shadow-card hover:bg-primary hover:text-primary-foreground md:block" href="#/gogos">Conhecer a coleção</a>' +
     '</section>';
 
@@ -80,7 +80,7 @@ var DESTAQUES_GOGOS = [
 ];
 
 function paginaGogos() {
-  var html = '<main><section class="bg-ink"><img src="imagens/banner-gogos.jpg" alt="O poder dos deuses em suas mãos — Gogo’s" width="1920" height="600" class="mx-auto aspect-[1920/600] w-full max-w-[1920px] object-cover"></section>' +
+  var html = '<main><section class="bg-ink"><img src="imagens/banner-gogos.jpg" alt="O poder dos deuses em suas mãos — Gogo’s" width="1920" height="600" class="mx-auto banner-gogos w-full max-w-[1920px] object-cover"></section>' +
     '<section class="mx-auto max-w-[1440px] px-4 py-12">' +
     '<div class="mb-10 grid items-center gap-8 md:grid-cols-[1fr_1.4fr]"><img src="imagens/gogos-titulo.png" alt="Gogo’s" class="mx-auto w-full max-w-md">' +
     '<div><p class="mb-2 font-display font-bold uppercase tracking-[0.2em] text-primary">Coleção Deuses e Mitos</p>' +
