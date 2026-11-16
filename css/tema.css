@@ -51,6 +51,11 @@
   --shadow-card: 0 1px 2px rgb(0 0 0 / .06), 0 8px 24px -12px rgb(0 0 0 / .18);
 }
 
+/* ===== Botão "Conhecer a coleção" em cima do banner =====
+   Fica no canto inferior esquerdo para não cobrir o selo da Panini da arte.
+   Para mudar a posição, troque o valor de "left" (distância da esquerda). */
+.botao-banner { left: 24px; }
+
 /* ===== Cartões de produto: texto sempre escuro =====
    (antes, na seção escura da página inicial, o nome do produto
    herdava a cor clara do fundo e ficava quase invisível) */
