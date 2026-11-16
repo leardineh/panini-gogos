@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panini + Gogo’s Deuses e Mitos — Loja conceito 2026</title>
+  <meta name="description" content="Loja conceito com produtos reais da Panini e os kits autorais Gogo’s Deuses e Mitos em uma área exclusiva.">
+  <link rel="icon" href="imagens/favicon.png" type="image/png">
+
+  <!-- Fontes (precisam de internet) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap">
+
+  <!-- Estilos: tailwind.css = classes prontas (não editar) / tema.css = cores (pode editar) -->
+  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="css/tema.css">
+</head>
+<body>
+  <!-- O site inteiro é desenhado aqui dentro pelos arquivos da pasta js/ -->
+  <div id="app"></div>
+
+  <!-- Avisos que aparecem no canto da tela -->
+  <div id="avisos" aria-live="polite"></div>
+
+  <!-- A ordem importa: dados primeiro, app por último -->
+  <script src="js/dados.js"></script>
+  <script src="js/icones.js"></script>
+  <script src="js/componentes.js"></script>
+  <script src="js/paginas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
